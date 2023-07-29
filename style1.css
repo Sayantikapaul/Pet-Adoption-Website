@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-text{
+  font-size: 80px;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  border: solid rgba(0, 0, 0, 0.897);
+  box-shadow: 0 5px 10px  rgb(224, 215, 133);
+ 
+  
+}
+.main-text:hover{
+  
+  opacity: 0.9;
+}
+.image-item{
+  display:flex;
+  justify-content:center;
+  height: 300px;
+  
+}
+.searchbar{
+  display: flex;
+  justify-content: center;
+
+}
+.background{
+  background-image: url('media/image5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

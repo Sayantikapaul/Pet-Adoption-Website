@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-form{
+  display: flex;
+  justify-content: center;
+  padding-top:5.3125rem;
+  padding-bottom: 16rem;
+  
+}
+

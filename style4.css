@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 80%;
+}
+.main-form{
+  display: flex;
+  justify-content: center;
+  padding-top:5.3125rem;
+  padding-bottom: 16rem;
+  
+}
+.background{
+  background-image: url('media/signup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media(main-width:998px) {
+  html{
+    font-size: 55%;
+  }
+  
+}
+@media(main-width:768px) {
+  html{
+    font-size: 45%;
+  }
+  
+}

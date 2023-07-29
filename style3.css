@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 100%;
+}
+.main{
+  background-image: url('media/image5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-dog{
+  font-size:5rem;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  padding:1.25rem;
+}
+@media(main-width:998px) {
+  html{
+    font-size: 55%;
+  }
+  
+}
+@media(main-width:768px) {
+  html{
+    font-size: 45%;
+  }
+  
+}
